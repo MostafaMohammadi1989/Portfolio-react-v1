@@ -1,6 +1,6 @@
 /* General Reusaible Components */
 .container {
-  max-width: 120rem;
+  max-width: 130rem;
   padding: 0 3.2rem;
   margin: auto;
 }
@@ -33,19 +33,20 @@
 .heading-sec,
 .heading-ter {
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 500;
   letter-spacing: 1px;
 }
 
 .heading-pri {
-  font-size: 6rem;
+  font-size: 8rem;
   line-height: 1.05;
-  margin-bottom: 4rem;
+  /* margin-bottom: 4rem; */
+  font-weight: 200;
 }
 .heading-sec {
-  font-size: 5rem;
+  font-size: 8rem;
   line-height: 1.2;
-  margin-bottom: 3.6rem;
+  /* margin-bottom: 3.6rem; */
+  font-weight: 700;
 }
 .heading-tre {
   font-size: 4rem;

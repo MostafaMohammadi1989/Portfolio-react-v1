@@ -4,8 +4,8 @@ import Home from "./components/Peages/Home";
 import About from "./components/Peages/About";
 import Project from "./components/Peages/Project";
 import Contact from "./components/Peages/Contact";
-import Login from "./components/Layout/Login";
-import Signup from "./components/Layout/Singup";
+import Login from "./components/Peages/Login";
+import Signup from "./components/Peages/Singup";
 
 import "./App.css";
 

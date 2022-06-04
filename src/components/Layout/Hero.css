@@ -1,0 +1,57 @@
+.hero {
+  margin-top: 5rem;
+}
+
+/* Left Side */
+.hero-left-side {
+  background-color: aliceblue;
+}
+.hero-right-side {
+  background-color: aliceblue;
+}
+
+.hero-left-title {
+  margin-bottom: 3rem;
+}
+
+.hero-left-text {
+  margin-bottom: 3rem;
+}
+.hero-pro-title {
+  font-size: 8rem;
+}
+
+.hero-web-title {
+  color: #25a4ad;
+}
+.hero-best {
+  display: block;
+}
+
+.hero-text {
+  font-size: 1.4rem;
+}
+
+.hero-p {
+  display: block;
+}
+.explore-btn,
+.started-btn {
+  width: 16rem;
+  height: 4.5rem;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.started-btn {
+  background-color: #25a4ad;
+  border: none;
+  color: #fcfcfc;
+}
+
+.explore-btn {
+  background-color: #fcfcfc;
+  border: 1px solid #25a4ad;
+  color: #25a4ad;
+  margin-left: 2rem;
+}
+
+/* Right Side */

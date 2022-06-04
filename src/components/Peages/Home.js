@@ -1,7 +1,10 @@
+import React from "react";
+import Hero from "../Layout/Hero";
+import "../Peages/Home.css";
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <Hero />
     </div>
   );
 };
