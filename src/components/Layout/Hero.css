@@ -4,10 +4,10 @@
 
 /* Left Side */
 .hero-left-side {
-  background-color: aliceblue;
-}
-.hero-right-side {
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero-left-title {
@@ -35,23 +35,16 @@
 .hero-p {
   display: block;
 }
-.explore-btn,
-.started-btn {
-  width: 16rem;
-  height: 4.5rem;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-.started-btn {
-  background-color: #25a4ad;
-  border: none;
-  color: #fcfcfc;
-}
-
-.explore-btn {
-  background-color: #fcfcfc;
-  border: 1px solid #25a4ad;
-  color: #25a4ad;
-  margin-left: 2rem;
-}
 
 /* Right Side */
+
+.hero-right-side {
+  background-color: #d7fcff;
+  border-radius: 50% 50% 0 0;
+}
+
+.hero-img {
+  height: 62rem;
+  display: flex;
+  margin: 0 auto;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import "../Layout/Hero.css";
+import HeroImg from "../img/Hero-img.png";
 
 const Hero = () => {
   return (
@@ -21,11 +22,13 @@ const Hero = () => {
             </p>
           </div>
           <div className="hero-buttons">
-            <button className="started-btn">Get Started</button>
-            <button className="explore-btn">Explore</button>
+            <button className="btn-medium">Get Started</button>
+            <button className="btn-medium btn-right">Explore</button>
           </div>
         </div>
-        <div className="hero-right-side">right side</div>
+        <div className="hero-right-side">
+          <img src={HeroImg} alt="A women standing" className="hero-img" />
+        </div>
       </div>
     </section>
   );

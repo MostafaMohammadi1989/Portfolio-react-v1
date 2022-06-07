@@ -32,7 +32,7 @@ const Navbar = () => {
             Login
           </Link>
           <Link className="signup" to="/singup">
-            SignUp
+            <button className="btn-small">Sign UP</button>
           </Link>
         </div>
       </section>

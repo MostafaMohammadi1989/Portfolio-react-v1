@@ -1,0 +1,24 @@
+:root {
+  --primary: #25a4ad;
+}
+
+.btn {
+  width: 16rem;
+  height: 4.5rem;
+}
+.explore-btn,
+.started-btn {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.started-btn {
+  background-color: #25a4ad;
+  border: none;
+  color: #fcfcfc;
+}
+
+.explore-btn {
+  background-color: #fcfcfc;
+  border: 1px solid #25a4ad;
+  color: #25a4ad;
+  margin-left: 2rem;
+}
