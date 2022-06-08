@@ -5,7 +5,7 @@ import HeroImg from "../img/Hero-img.png";
 const Hero = () => {
   return (
     <section className="hero ">
-      <div className="hero-section container  grid grid-2--cols">
+      <div className="hero-section container grid grid-2--cols">
         <div className="hero-left-side">
           <div className="hero-left-title">
             <h1 className="hero-pro-title heading-pri">

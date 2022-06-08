@@ -49,9 +49,10 @@
   font-weight: 700;
 }
 .heading-tre {
-  font-size: 4rem;
+  font-size: 5.4rem;
   line-height: 1.2;
-  margin-bottom: 3.2rem;
+  margin-bottom: 3rem;
+  font-weight: 200;
 }
 
 .btn-small {

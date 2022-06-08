@@ -1,0 +1,12 @@
+.logos-section {
+  background-color: #f8f8f8;
+  padding: 3rem;
+  max-width: 100%;
+  align-items: center;
+}
+.logos-items {
+  gap: 0;
+}
+.logos-img {
+  margin: 0 auto;
+}
