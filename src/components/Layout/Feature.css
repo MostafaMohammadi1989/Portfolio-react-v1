@@ -1,0 +1,90 @@
+.feature {
+  margin-top: 8rem;
+  background-color: #eeecec;
+}
+.featuer-title {
+  margin-top: 4rem;
+}
+
+.featuer-pragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+}
+.featuer-photo {
+  margin-top: 5rem;
+}
+
+.featuer-text {
+  font-size: 1.4rem;
+  text-align: center;
+}
+.text-featuer {
+  color: #25a4ad;
+  font-weight: 700;
+}
+
+.featuer-surprise {
+  display: block;
+}
+
+.featureitem-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30rem;
+  height: 25rem;
+  border: 1px solid rgb(172, 171, 171);
+  transition: all 0.3s ease-in;
+}
+
+.featureitem-title:hover,
+.featureitem-title:visited,
+.featueritem-links:hover {
+  color: #25a4ad;
+}
+.featureitem-container:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px 0;
+  background-color: #fcfcfc;
+}
+
+.featureitem-title {
+  font-size: 2rem;
+  color: #313131;
+  font-weight: 700;
+  margin: 2rem 0;
+}
+
+.featureitem-p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #313131;
+  line-height: 2.1rem;
+  margin: 0 2rem;
+}
+
+.feautureItem-Link {
+  margin: 2.5rem 0;
+}
+
+.featueritem-links {
+  color: #313131;
+  font-size: 2rem;
+}
+
+.featuer-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.featuer-btns {
+  margin-bottom: 5rem;
+  background-color: #313131;
+}
