@@ -4,6 +4,7 @@ import Logos from "../Layout/Logos";
 import Services from "../Layout/Services";
 import Featuer from "../Layout/Featuer";
 import "../Peages/Home.css";
+import Clients from "../Layout/Clients";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Logos />
       <Services />
       <Featuer />
+      <Clients />
     </div>
   );
 };
