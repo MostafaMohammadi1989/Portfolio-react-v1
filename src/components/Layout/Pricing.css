@@ -1,0 +1,27 @@
+.pricing {
+  margin-top: 8rem;
+}
+.pricing-title {
+  margin-top: 4rem;
+}
+
+.pricing-pragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+.pricing-text {
+  font-size: 1.4rem;
+  text-align: center;
+}
+.text-pricing {
+  color: #25a4ad;
+  font-weight: 700;
+}
+
+.pricing-surprise {
+  display: block;
+}
