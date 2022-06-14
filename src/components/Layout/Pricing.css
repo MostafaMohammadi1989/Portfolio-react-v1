@@ -25,3 +25,65 @@
 .pricing-surprise {
   display: block;
 }
+
+.pricingitem-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #929292;
+  width: 32rem;
+  height: 40rem;
+}
+
+.pricingitem-section:hover {
+  transform: scale(1.09);
+  box-shadow: 0 0 15px 0;
+  background-color: #fcfcfc;
+}
+
+.pricingitem-title:hover,
+.pricingitem-price:hover,
+.pricingitem-list-ul:hover {
+  color: #25a4ad;
+}
+.pricingitem-title {
+  font-size: 3rem;
+  color: #313131;
+  font-weight: 600;
+  margin: 2rem 0;
+}
+
+.pricingitem-price {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #313131;
+  margin: 2rem 0;
+}
+.pricingitem-list {
+  margin-bottom: 5rem;
+}
+
+.pricingitem-list-ul {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #313131;
+  line-height: 2rem;
+  list-style: none;
+}
+.pricingitem-list-li {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+}
+.check {
+  width: 1.8rem;
+  height: auto;
+  margin-right: 0.6rem;
+}
+
+/* .pricingitem-list-li {
+  background-image: url("../img/CCO.svg");
+  background-repeat: no-repeat;
+  margin-right: 2rem;
+} */
