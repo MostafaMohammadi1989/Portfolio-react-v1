@@ -45,7 +45,7 @@ const Pricing = (props) => {
             list3="Real-time collaboration"
             list4="Feedback loop notifications"
             list5="Essential dev tools integrations"
-            btnLabel="Request Demo"
+            btnLabel="Contact Us"
           />
         </div>
       </div>

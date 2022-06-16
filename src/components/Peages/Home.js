@@ -6,6 +6,7 @@ import Featuer from "../Layout/Featuer";
 import "../Peages/Home.css";
 import Clients from "../Layout/Clients";
 import Pricing from "../Layout/Pricing";
+import Footer from "../Layout/Footer";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Featuer />
       <Clients />
       <Pricing />
+      <Footer />
     </div>
   );
 };

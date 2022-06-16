@@ -1,0 +1,89 @@
+.footer {
+  margin-top: 9rem;
+  background-color: #2c2c2c;
+  color: #ffff;
+  /* overflow: hidden; */
+}
+/* .footer::after {
+  content: "";
+  width: 50rem;
+  height: 50rem;
+  background-color: #d3b9b9;
+} */
+
+/* .footer-section {
+  background-color: #313131;
+  transform: rotate(30deg);
+} */
+.footer-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-paragraph {
+  margin: 8rem 0 4.5rem 0;
+  font-size: 4.5rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 5rem;
+}
+.footer-paragraph span {
+  display: block;
+}
+
+.footer-links {
+  margin-top: 5rem;
+}
+.footer-grid {
+  grid-template-columns: 50rem 25rem 25rem 25rem 1fr 1fr 1fr 1fr;
+}
+
+.footer-payment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.payment-title {
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.payment-text {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.payment-text span {
+  display: block;
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.link-title {
+  font-size: 2rem;
+  margin-bottom: 1.4rem;
+}
+
+.link-items {
+  list-style: none;
+  line-height: 4rem;
+  font-size: 1.4rem;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+}
+
+.copyright p {
+  margin-bottom: 5rem;
+}
